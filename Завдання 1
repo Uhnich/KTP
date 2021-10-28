@@ -1,0 +1,11 @@
+n = int(input("Введіть будь-яке число : "))
+
+number = str(n)
+
+first = int(number[0])
+
+last = int(number[-1])
+
+sum = first + last
+
+print(f"sum of {first} and {last} is : ",sum)
