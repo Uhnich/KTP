@@ -1,0 +1,9 @@
+import math
+
+
+def digit(m):
+
+    return m % 10 + (m // int(math.pow(10, math.floor(math.log10(m)))))
+
+
+print(digit(int(input())))
